@@ -1,0 +1,31 @@
+.card1{
+    background-color: #f3bd14;
+}
+.card2{
+    background-color: #e73314;
+}
+.card3{
+    background-color: #d66c0e;
+}
+
+.card1:hover{
+    background-color: #f2cf64;
+    border-color: black;
+    border-radius: 5mm;
+    border-width: 1mm;
+    cursor:pointer;
+}
+.card2:hover{
+    background-color: #dc553e;
+    border-color:   black;
+    border-radius: 5mm;
+    border-width: 1mm;
+    cursor:pointer;
+}
+.card3:hover{
+    background-color: #e48938;
+    border-color:   black;
+    border-radius: 5mm;
+    border-width: 1mm;
+    cursor:pointer;
+}

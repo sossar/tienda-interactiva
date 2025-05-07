@@ -21,8 +21,8 @@ function init(){
     `
 }
 function agregarCarrito(){
-    var nombre = document.getElementById("nombreproducto")
+    var nombre = document.getElementById("nombreproducto").textContent
     var valor = document.getElementById("input1").value
     var carrito = document.getElementById("carrito")
-    carrito = carrito.innerHTML = `<h1>valor: ${valor} y nombre: ${nombreproducto}</h1>`
+    carrito = carrito.innerHTML = `<h1>valor: ${valor} y producto: ${nombre}</h1>`
 }
